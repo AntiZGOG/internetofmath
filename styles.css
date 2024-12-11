@@ -13,11 +13,22 @@ ol {
 header{
     padding: 20px;
     height: 200px;
-    background-color: black;
-    background-image: url("/images/plaza.jpg");
+    background-color: rgba(0,0,0,0.5);
+    background-image: url("/images/Desain tanpa judul.png");
     background-size: 100%;
     background-position: center;
-    text-align: left;
+    text-align: center;
+}
+header .overlay{
+    position: absolute;
+    padding: 20px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    z-index: 1;
 }
 header a{
     color:white;
@@ -26,16 +37,25 @@ header a{
     
 }
 header .logo a {
-    background-image: url("/images/Lambang_baru_UNJ-removebg-preview.png");
-    background-size: 80px;
+    background-image: url("/images/logo_iom-removebg-preview.png");
+    background-size: 150px;
     background-repeat: no-repeat;
     display: inline-block;
-    height: 80px;
+    height: 150px;
     text-indent: -9999999px;
     position: relative;
     top: -30px;
-    width: 80px;
+    width: 150px;
+    z-index: 2;
 }
+header h1 {
+    font-size: 2.5rem;
+    margin: -50px 0; /* Memberikan jarak antara logo dan judul */
+    font-weight: bold;
+    z-index: 2;
+}
+
+
 section {
     background: black;
     color: white;
@@ -89,3 +109,4 @@ li0:hover{
         background: red;
     }
 }
+

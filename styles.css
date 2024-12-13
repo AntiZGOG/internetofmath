@@ -72,8 +72,11 @@ footer {
     padding: 10px 20px;
 }
 div {
-    background: grey;
+    background: none;
     display: inline;}
+div1{
+    background: none;
+}
 h2 {
     color:aqua; 
 }
@@ -110,7 +113,7 @@ header .mobile{
     display: none;
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:740px) {
     header .mobile {
         display: inline-block;
     }  
@@ -125,6 +128,11 @@ header .mobile{
     width: 300px; /* Ukuran gambar */
     height: auto;
     transform: scaleX(-1);
+}
+.qrcode {
+    position: relative;
+    width: 225px;
+    height: auto;
 }
 .anime2 {
     position: absolute;

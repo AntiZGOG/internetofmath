@@ -120,6 +120,12 @@ header .mobile{
     header .desktop {
         display: none;
     }    
+    .anime{
+        display: none;
+    }
+    .anime2{
+        display: none;
+    }
 }
 .anime {
     position: absolute;

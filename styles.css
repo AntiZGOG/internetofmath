@@ -50,7 +50,7 @@ header .logo a {
     z-index: 2;
 }
 header h1 {
-    font-size: 2.5rem;
+    font-size: 1 rem;
     margin: -50px 0; /* Memberikan jarak antara logo dan judul */
     font-weight: bold;
     z-index: 2;
@@ -123,9 +123,9 @@ header .mobile{
 }
 .anime {
     position: absolute;
-    top: 299px; /* Jarak dari atas */
-    right: 20px; /* Jarak dari kanan */
-    width: 300px; /* Ukuran gambar */
+    top: 299px;
+    right: 20px;
+    width: 300px;
     height: auto;
     transform: scaleX(-1);
 }
@@ -136,9 +136,9 @@ header .mobile{
 }
 .anime2 {
     position: absolute;
-    top: 294px; /* Jarak dari atas */
-    right: 1000px; /* Jarak dari kanan */
-    width: 300px; /* Ukuran gambar */
+    top: 294px;
+    right: 1000px;
+    width: 300px;
     height: auto;
     transform: scaleX(-1);
 }
